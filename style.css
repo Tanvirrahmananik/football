@@ -131,7 +131,7 @@ footer{
 @media only screen and ( max-width: 687px)
 {
    #intro{
-       
+
        flex-direction: column;
        width: 100%;
        justify-content: center;
@@ -145,7 +145,7 @@ footer{
     height: 250px;
    }
    .player-info{
-       grid-template-columns: repeat(1,1fr);
+       grid-template-columns: repeat(1, 1fr);
        margin: 20px 0 0 0;
        width: 100%;
    }
@@ -170,7 +170,7 @@ footer{
 }
 /* meadia quari for Tab */
 
-@media only screen and ( max-width: 991px)
+@media only screen  and (min-width:688px) and ( max-width: 991px)
 {
    #intro{
        
