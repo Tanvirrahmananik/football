@@ -117,6 +117,7 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     margin-right: 475px;
     margin-left: 482px;
     margin-top: 60px;
@@ -127,6 +128,103 @@ footer{
     height: 110px;
 }
 /* media file for mobile */
-@media only screen and ( max-width:687em){
+@media only screen and ( max-width: 687px)
+{
+   #intro{
+       
+       flex-direction: column;
+       width: 100%;
+       justify-content: center;
+       padding: 30px;
+   }
+   .head-section{
+       font-size: 15px;  
+   }
+   .banner-pic img{
+    width: 300px;
+    height: 250px;
+   }
+   .player-info{
+       grid-template-columns: repeat(1,1fr);
+       margin: 20px 0 0 0;
+       width: 100%;
+   }
+ .club-rating{
+    flex-direction: column;
+}
+.indu-club{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.indu-club img{
+    width: 300px;
+    height: 170px;
+}
+footer{
+    margin: 0;
+}
+.footer-icon img{
+    width: 300px;
+    height: 100px;
+}
+}
+/* meadia quari for Tab */
+
+@media only screen and ( max-width: 991px)
+{
+   #intro{
+       
+      display: flex;
+       width: 100%;
+       justify-content: center;
+       padding: 30px;
+   }
+   .head-section{
+       font-size: 20px;  
+   }
+   .banner-pic{
+    width: 500px;
+    height: 250px;
+    position :relative;}
+   .banner-pic img{
+    width: 500px;
+    height: 250px;
+   }
+   .iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+  }
+  .iframe-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+  }
+  .player-info{
+    grid-template-columns: repeat(2,1fr);
+    margin: 20px 0 0 0;
+    width: 100%;
+}
+.club-rating{
+ flex-direction: column;
+}
+.indu-club{
+ margin-left: 0px;
+ margin-right: 0px;
+}
+.indu-club img{
+ width: 300px;
+ height: 170px;
+}
+footer{
+ margin: 0;
+}
+.footer-icon img{
+ width: 300px;
+ height: 100px;
+}
 
 }
