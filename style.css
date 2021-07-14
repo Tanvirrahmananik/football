@@ -126,3 +126,7 @@ footer{
     width: 483.87px;
     height: 110px;
 }
+/* media file for mobile */
+@media only screen and ( max-width:687em){
+
+}
